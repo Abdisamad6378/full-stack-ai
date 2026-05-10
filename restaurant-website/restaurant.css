@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fffdf8;
+    color: #2c2c2c;
+}
+
+/* ── NAV ── */
+nav {
+    background-color: #c0392b;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+nav ul li a {
+    color: #fce8e6;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* ── HERO ── */
+.hero {
+    background-color: #fdf0ed;
+    text-align: center;
+    padding: 80px 20px 60px;
+    border-bottom: 3px solid #e8c5bf;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #c0392b;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 1.15rem;
+    color: #6b4b44;
+    max-width: 520px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #c0392b;
+    color: #fff;
+    padding: 14px 36px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #a93226;
+}
+
+/* ── SECTION TITLES ── */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #c0392b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-sub {
+    text-align: center;
+    color: #888;
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+}
+
+/* ── MENU ── */
+#menu {
+    padding: 60px 40px;
+    background-color: #fff;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 28px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu-card {
+    background-color: #fffdf8;
+    border: 1px solid #f0dbd7;
+    border-radius: 10px;
+    padding: 28px 22px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(192, 57, 43, 0.12);
+}
+
+.menu-card .icon {
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+}
+
+.menu-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #2c2c2c;
+    margin-bottom: 6px;
+}
+
+.menu-card p {
+    font-size: 0.9rem;
+    color: #888;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-weight: 700;
+    color: #c0392b;
+    font-size: 1.05rem;
+}
+
+/* ── ABOUT ── */
+#about {
+    background-color: #fdf0ed;
+    padding: 60px 40px;
+    text-align: center;
+    border-top: 3px solid #e8c5bf;
+    border-bottom: 3px solid #e8c5bf;
+}
+
+#about p {
+    max-width: 620px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    color: #5a3a35;
+    line-height: 1.8;
+}
+
+/* ── CONTACT ── */
+#contact {
+    padding: 60px 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.contact-item {
+    font-size: 1rem;
+    color: #5a3a35;
+    line-height: 1.8;
+}
+
+.contact-item span {
+    display: block;
+    font-weight: 700;
+    color: #c0392b;
+    margin-bottom: 4px;
+}
+
+/* ── FOOTER ── */
+footer {
+    background-color: #c0392b;
+    color: #fce8e6;
+    text-align: center;
+    padding: 18px;
+    font-size: 0.9rem;
+}
